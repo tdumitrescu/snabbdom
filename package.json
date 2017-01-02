@@ -1,7 +1,7 @@
 {
-  "name": "snabbdom",
+  "name": "snabbdom-tdumitrescu",
   "version": "0.5.4",
-  "description": "A virtual DOM library with focus on simplicity, modularity, powerful features and performance.",
+  "description": "Snabbdom fork to get fixes before the official project publishes them",
   "main": "snabbdom.js",
   "typings": "snabbdom.d.ts",
   "directories": {
@@ -28,13 +28,13 @@
     "test": "testem",
     "compile": "tsc",
     "prepublish": "npm run compile",
-    "release-major": "xyz --repo git@github.com:paldepind/snabbdom.git --increment major",
-    "release-minor": "xyz --repo git@github.com:paldepind/snabbdom.git --increment minor",
-    "release-patch": "xyz --repo git@github.com:paldepind/snabbdom.git --increment patch"
+    "release-major": "xyz --repo git@github.com:tdumitrescu/snabbdom.git --increment major",
+    "release-minor": "xyz --repo git@github.com:tdumitrescu/snabbdom.git --increment minor",
+    "release-patch": "xyz --repo git@github.com:tdumitrescu/snabbdom.git --increment patch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paldepind/snabbdom.git"
+    "url": "git+https://github.com/tdumitrescu/snabbdom.git"
   },
   "keywords": [
     "virtual",
@@ -46,7 +46,7 @@
   "author": "Simon Friis Vindum",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paldepind/snabbdom/issues"
+    "url": "https://github.com/tdumitrescu/snabbdom/issues"
   },
-  "homepage": "https://github.com/paldepind/snabbdom#readme"
+  "homepage": "https://github.com/tdumitrescu/snabbdom#readme"
 }
