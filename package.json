@@ -1,6 +1,6 @@
 {
   "name": "snabbdom-tdumitrescu",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "description": "Snabbdom fork to get fixes before the official project publishes them",
   "main": "snabbdom.js",
   "typings": "snabbdom.d.ts",
